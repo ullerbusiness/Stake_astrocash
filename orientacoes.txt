@@ -1,0 +1,21 @@
+-- Instalar Heroku
+https://devcenter.heroku.com/articles/deploying-nodejs
+
+Executar cmd
+			  npm install -g heroku
+Logar Heroku: heroku login
+Definir Heroku no projeto criado na Heroku: heroku git:remote -a tokenizzefarming
+Abrir diretorio do projeto
+Preparar alteracoes: git add .
+Comitar alteracoes:  git commit -am "make it better"
+Enviar alteracoes ao servidor: git push heroku master
+  
+Ver logs: heroku logs --tail
+  
+https://git.heroku.com/tokenizzefarming.git
+  
+  
+  exemplo
+  https://github.com/heroku/node-js-sample
+  
+  
